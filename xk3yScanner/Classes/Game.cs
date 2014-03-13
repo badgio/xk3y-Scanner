@@ -100,7 +100,7 @@ namespace xk3yScanner.Classes
                 game.WebPopulated = true;
                 return game;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return null;
             }
@@ -172,7 +172,7 @@ namespace xk3yScanner.Classes
                 File.Move(oldname,newname);
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
             }

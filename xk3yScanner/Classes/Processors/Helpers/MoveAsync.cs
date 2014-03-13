@@ -97,7 +97,7 @@ namespace xk3yScanner.Classes.Processors.Helpers
                     destination.Close();
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 _deleteorigin = false;
                 if (src!=null)

@@ -92,7 +92,7 @@ namespace xk3yScanner.Classes
                 if (((HttpWebResponse)e.Response).StatusCode == HttpStatusCode.NotModified)
                     throw new NotModifiedExeption();
             }
-            catch(Exception e)
+            catch(Exception)
             {
                 
             }

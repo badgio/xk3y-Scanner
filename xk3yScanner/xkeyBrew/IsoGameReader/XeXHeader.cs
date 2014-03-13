@@ -125,7 +125,7 @@ namespace xk3yScanner.xkeyBrew.IsoGameReader
             this.discCount = 0;
         }
 
-        public string ToString()
+        public new string ToString()
         {
             StringBuilder builder = new StringBuilder();
             PropertyInfo[] properties = typeof(XeXHeader).GetProperties(BindingFlags.Public | BindingFlags.Instance);
